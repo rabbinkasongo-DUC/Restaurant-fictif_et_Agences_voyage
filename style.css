@@ -1,0 +1,19 @@
+.hero {
+    background-image: url(image_haut.avif);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    position: relative;
+}
+.hero::before { content:""; position: absolute;
+inset: 0;
+background: rgba(0,0,0,0.35);
+}
+.hero .hero-content{
+position: relative;
+z-index:2; text-align:center; width: 100%;
+} 
+
